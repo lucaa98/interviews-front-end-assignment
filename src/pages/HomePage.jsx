@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export default function HomePage() {
   return (
     <div className="container mx-auto">
-      <div className="flex gap-10">
+      <div className="flex gap-10 h-screen items-center">
         <div className="w-1/2">
           <img src={bgHome} alt="Home" />
         </div>
@@ -18,7 +18,7 @@ export default function HomePage() {
           <h2 className="text-2xl mb-5"> 
             Discover Recipes 
           </h2>
-          <Link className="btn" to="/search-results"> Explore </Link>
+          <Link className="btn" to="/recipes"> Explore </Link>
         </div>
       </div>
     </div>

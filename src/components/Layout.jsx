@@ -1,12 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { Outlet, ScrollRestoration } from "react-router-dom";
 import Header from './Header';
-import { Outlet } from "react-router-dom";
 
 export default function Layout() {
   return (
     <>
       <Header />
       <main>
+        <ScrollRestoration />
         <Outlet />
       </main>
     </>

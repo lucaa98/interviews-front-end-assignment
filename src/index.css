@@ -17,6 +17,13 @@
   @apply bg-white text-red-500
 }
 
+.btn-add {
+  @apply border border-purple-900 bg-purple-900 text-white py-1 px-6 rounded-full cursor-pointer transition-colors
+}
+.btn-add:hover {
+  @apply bg-white text-purple-900
+}
+
 .badge {
   @apply w-fit px-5 py-1 text-sm font-medium border rounded-full
 }
