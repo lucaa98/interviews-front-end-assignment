@@ -6,7 +6,6 @@ import Layout from "../components/Layout";
 const HomePage = lazy(() => import('../pages/HomePage'));
 const SearchResultsPage = lazy(() => import('../pages/SearchResultsPage'));
 const DetailsPage = lazy(() => import('../pages/Recipe/DetailsPage'));
-const AddPage = lazy(() => import('../pages/Recipe/AddPage'));
 const NotFoundPage = lazy(() => import('../pages/NotFoundPage'));
 const ErrorPage = lazy(() => import('../pages/ErrorPage'));
 

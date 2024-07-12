@@ -42,11 +42,11 @@ export default function SearchResults() {
   
   return (
     <div className="container mx-auto">
-      <div className="text-end mb-5">
+      {/* <div className="text-end mb-5">
         <Link className="btn-add" to='/add-recipe'> 
           + Add Recipes
         </Link>       
-      </div>
+      </div> */}
       
       <div>
         {isLoading ? (
